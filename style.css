@@ -1,0 +1,279 @@
+body {
+    background-color: #4040f4;
+    color: white;
+}
+
+#heading {
+    width: 1500px;
+    background-color: #5e5eec;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #5e5eec;
+    border-radius: 7px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: ubuntu;
+}
+
+#vssut_logo {
+    position: absolute;
+    top: 45px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+#comp_society_logo {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: auto;
+}
+
+#portfolio {
+    width: 1000px;
+    margin: 20px auto;
+    font-family: Roboto;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: large;
+}
+
+.progress_bar {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    font-family: ubuntu;
+    background: #fff;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.progress_bar .skill-box {
+    width: 100%;
+    margin: 25px 0;
+
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-box .skill-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background: #4040f4;
+}
+
+.skill-per.css {
+    width: 50%;
+}
+
+.skill-per.javascript {
+    width: 30%;
+}
+
+.skill-per.python {
+    width: 50%;
+}
+
+.skill-per.c {
+    width: 90%;
+}
+
+.skill-per.cpp {
+    width: 70%;
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -20px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #4040f4;
+}
+
+#language {
+    width: 1400px;
+    margin: 80px auto;
+    margin-bottom: 50px;
+    background-color: #5e5eec;
+    border: 2px solid #5e5eec;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+#language_skills {
+    width: 1380px;
+    height: 900px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#language_skills div {
+    width: 400px;
+    height: 380px;
+    background-color: #FFF;
+    color: black;
+    box-sizing: border-box;
+    background-color: #a3a3ff;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-family: Roboto;
+    text-align: justify;
+}
+
+.HTML {
+    transition: all 0.8s;
+}
+
+.HTML:hover {
+    transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Css {
+    transition: all 0.8s;
+}
+
+.Css:hover {
+    transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.JavaScript {
+    transition: all 0.8s;
+}
+
+.JavaScript:hover {
+    transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Python {
+    transition: all 0.8s;
+}
+
+.Python:hover {
+    transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.C {
+    transition: all 0.8s;
+}
+
+.C:hover {
+    transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Cpp {
+    transition: all 0.8s;
+}
+
+.Cpp:hover {
+    transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+#conclusion {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+}
+
+@media (max-width: 420px) {
+    #heading {
+        width: 95%;
+    }
+
+    #vssut_logo {
+        width: 70px;
+        height: auto;
+        top: 55px;
+    }
+
+    #comp_society_logo {
+        display: block;
+        width: 60px;
+        height: auto;
+    }
+
+    #portfolio {
+        width: 90%;
+        margin: 20px auto;
+        font-family: Roboto;
+        line-height: 1.4;
+        text-align: justify;
+        font-size: medium;
+    }
+
+    #progress_bar{
+        width: 88%;
+    }
+
+    .progress_bar{
+        width: 100%;
+    }
+
+    #language{
+        width: 98%;
+        padding-bottom: 20px;
+    }
+
+    #language_skills{
+        width: 100%;
+        height: auto;
+    }
+
+    #language_skills div{
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+        font-size: medium;
+        line-height: 1.1;
+        text-align: center;
+        background-color: #a3a3ff;
+        color: white;
+    }
+
+    #conclusion{
+        width: 90%;
+        font-size: medium;
+        line-height: 1.4;
+    }
+}
